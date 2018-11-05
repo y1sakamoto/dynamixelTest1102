@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6057CB063E67B802CB9C85E3D7B8728FD9B8292D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6057CB063E67B802CB9C85E3D7B8728FD9B8292D" : 9223372036854775807,
+    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "28161D94-9658-401A-99B7-31F206E3EAA1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6057CB063E67B802CB9C85E3D7B8728FD9B8292D" : "dynamixelTest1102\/",
+    "7E54B1843C52D9ECF8AF00D04C332213347A4D63" : "..\/..\/addons\/ofxPubSubOsc"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "dynamixelTest1102",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "dynamixelTest1102.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/y1sakamoto\/dynamixelTest1102.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6057CB063E67B802CB9C85E3D7B8728FD9B8292D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/2bbb\/ofxPubSubOsc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E54B1843C52D9ECF8AF00D04C332213347A4D63"
+    }
+  ]
+}
