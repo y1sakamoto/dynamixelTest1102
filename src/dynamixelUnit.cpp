@@ -46,8 +46,8 @@ void dynamixelUnit::openPort(const char *deviceName,int baourate,int protcolVers
 
 void dynamixelUnit::initDynamyxel(const int _id){
     uint8_t dxl_error = 0;
-    packetHandler->write4ByteTxRx(portHandler, _id, WRITE_PROFILE_ACCERATION, 300, &dxl_error);
-    packetHandler->write4ByteTxRx(portHandler, _id, WRITE_PROFILE_VELOCITY, 300, &dxl_error);
+    packetHandler->write4ByteTxRx(portHandler, _id, WRITE_PROFILE_ACCERATION, DINAMIXEL_ACCEL, &dxl_error);
+    packetHandler->write4ByteTxRx(portHandler, _id, WRITE_PROFILE_VELOCITY, DINAMIXEL_SPEED, &dxl_error);
 
     packetHandler->write1ByteTxRx(portHandler, _id, WRITE_TORQUE_ENABLE, TORQUE_ENABLE, &dxl_error);
     //goPosition(_id,ROTATION_VALUE_HALF);
