@@ -38,17 +38,17 @@ void ofApp::setup(){
     }
     });
 
-    ofVec3f pos[NUM_ARMS];
+    /*ofVec3f pos[NUM_ARMS];
     ofMatrix4x4 mat;
     abc.get("/Sphere_01_Offset/Sphere_01", mat);
     pos[0]=mat.getTranslation()*10;
     abc.get("/Sphere_02", mat);
     pos[1]=mat.getTranslation()*10;
-
+*/
     
     posFromOsc.set(30,30,30);
     arm[0].setOffSetPos(ofVec3f(-140,250,150));
-    arm[1].setOffSetPos(ofVec3f(-370,890,20));
+    arm[1].setOffSetPos(ofVec3f(-250,890,20));
     //arm[2].setOffSetPos(ofVec3f(-100,0,-200));
     //arm[3].setOffSetPos(ofVec3f(-100,0,200));
 
@@ -78,7 +78,7 @@ void ofApp::update(){
         pos[0]=mat.getTranslation()*10;
         abc.get("/Sphere_02_Offset/Sphere_02", mat);
         pos[1]=mat.getTranslation()*10;
-        //cout<<pos[0]<<endl;
+        //cout<<pos[1]<<endl;
         arm[0].goPosition(pos[0]);
         arm[1].goPosition(pos[1]);
 

@@ -16,11 +16,12 @@
 #define MOTOR_UNIT_NUM_3 12
 
 
-#define DINAMIXEL_ACCEL 50
-#define DINAMIXEL_SPEED 50
+#define DINAMIXEL_ACCEL 10
+#define DINAMIXEL_SPEED 100
 
 
-#define ALENBIC_FILE_PATH "testAlembic_move86.abc"
+//#define ALENBIC_FILE_PATH "testAlembic_move86.abc"
+#define ALENBIC_FILE_PATH "p1_move_05.abc"
 
 
 #define NUM_ARMS 2
