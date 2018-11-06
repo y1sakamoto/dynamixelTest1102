@@ -76,6 +76,7 @@ public:
         int i1=k.getRadToInt(theta[1]-PI/2,1024,3071,1);
         int i2=k.getRadToInt(-theta[2]-theta[1]-PI/2,400,3583,1);
         
+        cout <<i0<<" "<<i0<<" "<<i1<<endl;
         unit->goPosition(joint[0],i0);
         unit->goPosition(joint[1],i1);
         unit->goPosition(joint[2],i2);
